@@ -31,7 +31,7 @@ resource "aws_security_group" "martynthewolf_sg" {
     to_port     = -1
     cidr_blocks = [
       "10.1.0.0/16",
-      "144.124.161.166/32"
+      "IP ADDRESS"
     ]
   }
 
@@ -39,7 +39,7 @@ resource "aws_security_group" "martynthewolf_sg" {
     protocol    = "tcp"
     from_port   = 22
     to_port     = 22
-    cidr_blocks = ["144.124.161.166/32"]
+    cidr_blocks = ["IP ADDRESS"]
   }
 
   egress {

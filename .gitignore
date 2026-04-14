@@ -1,0 +1,42 @@
+# --- Terraform core ---
+
+.terraform/
+.terraform.lock.hcl
+
+# --- State files (NEVER commit) ---
+
+*.tfstate
+*.tfstate.*
+crash.log
+
+# --- Sensitive variable files ---
+
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc
+
+*.tfplan
+*.plan
+
+*.log
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+*.backup
+*.tmp
